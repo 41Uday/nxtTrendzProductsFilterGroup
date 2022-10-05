@@ -1,0 +1,139 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+    margin-top: 50px;
+  }
+}
+
+/* Write your CSS here */
+.input-name {
+  height: 38px;
+  width: 250px;
+  padding: 10px;
+  background-color: #f1f5f9;
+  border: none;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  outline: none;
+}
+
+.img-1-1 {
+  height: 15px;
+  width: 15px;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.i-card {
+  height: 38px;
+  width: 40px;
+  background-color: #f1f5f9;
+  border: none;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-img {
+  height: 20px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+.head-1-f {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #0967d2;
+}
+
+.head-2-f {
+  color: #0f172a;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-top: 30px;
+}
+
+.list-type-cont {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 1px;
+  margin-left: -44px;
+}
+
+.list-para {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #64748b;
+}
+
+.butt-list {
+  border: none;
+  background-color: transparent;
+}
+
+.butt-list-2 {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.r-img {
+  width: 200px;
+  height: 25px;
+  margin-right: 15px;
+  margin-left: -15px;
+}
+
+.button-1 {
+  width: 130px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-weight: 600;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-left: -15px;
+}
+
+@media screen and (max-width: 768px) {
+  .r-img {
+    margin-left: 20px;
+  }
+  .button-1 {
+    margin-left: 20px;
+  }
+  .head-2-f {
+    margin-left: 20px;
+  }
+
+  .list-para {
+    margin-left: 20px;
+  }
+  .input-name {
+    margin-left: 20px;
+  }
+}
